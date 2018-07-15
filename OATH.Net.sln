@@ -19,8 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D7006C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OathNet.Test", "OathNet.Test\OathNet.Test.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
