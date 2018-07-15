@@ -7,10 +7,8 @@
 namespace OathNet
 {
     using System;
-    using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
 
     /// <summary>
     ///     Contains methods to convert to and from base-32 according to RFC 3548.

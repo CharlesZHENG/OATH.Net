@@ -6,13 +6,9 @@
 
 namespace OathNet.Test
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using Moq;
     using NUnit.Framework;
     using OathNet;
+    using System;
 
     public class TimeBasedOtpGeneratorTests
     {

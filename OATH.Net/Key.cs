@@ -6,11 +6,7 @@
 
 namespace OathNet
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
     using System.Security.Cryptography;
-    using System.Text;
 
     /// <summary>
     ///     Represents a secret key used for the one-time password generation.

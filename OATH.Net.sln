@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OATH.Net", "OATH.Net\OATH.Net.csproj", "{D3842881-C2F4-44A7-AE51-5BC041B7B2FD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OATH.Net.Test", "OATH.Net.Test\OATH.Net.Test.csproj", "{791F063E-3B2A-4082-829E-9363324A90F4}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OATH.Net", "OATH.Net\OATH.Net.csproj", "{D3842881-C2F4-44A7-AE51-5BC041B7B2FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C63D6DA-A2F5-4711-84AD-1318F3625B3E}"
 	ProjectSection(SolutionItems) = preProject
@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D7006C
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OathNet.Test", "OathNet.Test\OathNet.Test.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,12 +31,19 @@ Global
 		{D3842881-C2F4-44A7-AE51-5BC041B7B2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3842881-C2F4-44A7-AE51-5BC041B7B2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3842881-C2F4-44A7-AE51-5BC041B7B2FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{791F063E-3B2A-4082-829E-9363324A90F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{791F063E-3B2A-4082-829E-9363324A90F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{791F063E-3B2A-4082-829E-9363324A90F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{791F063E-3B2A-4082-829E-9363324A90F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB5E770-D32E-4B6D-9DD7-8BFC5D742882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2308EEB-278A-4575-91AF-ADA82533F392}
 	EndGlobalSection
 EndGlobal
