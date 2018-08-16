@@ -3,12 +3,12 @@ OATH.Net
 
 [![Build status](https://ci.appveyor.com/api/projects/status/0ud7gevk8ird1i4i)](https://ci.appveyor.com/project/jennings/oath-net)
 
-OATH.Net is a .NET library to perform OATH authentication.
+OATH.Net is a netstandard2.0 library to perform OATH authentication.
 
 
 ## Requirements
 
-* Microsoft .NET Framework 4.0
+* Microsoft netstandard2.0
 
 
 ## Usage
